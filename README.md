@@ -19,4 +19,6 @@ In this instance, since we know both graphs have the same number of nodes and ea
 
 In other words, (if using an adjacency matrix) there exists a permutation matrix P such that $A_{G_1} = P \cdot A_{G_2} \cdot P^T$
 
+Using my observation, we can take the identity of $G_2$ and use it as the permutation matrix resulting in the same matrix as $G_1$
+
 for example, [[1,1],[1,1]] using identity [[1,0][0,1]] would map to [[1,1],[1,1]]
