@@ -17,4 +17,6 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 Given that both graphs have the same number of nodes and are completely connected (I am assuming this means that every node is connected to every other node) this would mean there needs to be a bijection that exists that would map one graph to another. 
 In this instance, since we know both graphs have the same number of nodes and each node has the same number of edges connected to the other nodes, we can simply use an identity bijection to map the first graph to the second.
 
+In other words, (if using an adjacency matrix) there exists a permutation matrix P such that $A~G_1~ = P \cdot A~G_2~ \cdot P^T$
+
 for example, [[1,1],[1,1]] using identity [[1,0][0,1]] would map to [[1,1],[1,1]]
