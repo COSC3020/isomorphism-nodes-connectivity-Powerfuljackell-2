@@ -20,8 +20,10 @@ In this instance, since we know both graphs have the same number of nodes and ea
 This would only need to map each vertex to another vertex in the other graph, regardless of positioning as they are all connected and therefore the same. 
 
 Mappping for two graphs of size n:
+
 $\alpha : V(V_1) \rightarrow V(V_2)$
-$\alpha : {1,2,3 ... N} \atop {1,2,3 ... N}
+
+$\alpha : {1,2,3 ... N} \atop {1,2,3 ... N}$
 
 
 In other words, (if using an adjacency matrix) there exists a permutation matrix P such that $A_{G_1} = P \cdot A_{G_2} \cdot P^T$
